@@ -5,7 +5,21 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundApp"
     tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:scrollbars="vertical"
+        android:maxLines="5"
+        android:ellipsize="end"
+        android:textColor="@color/textForeground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/input" />
 
     <EditText
         android:id="@+id/input"
@@ -17,8 +31,9 @@
         android:focusable="true"
         android:autofillHints="none"
         android:textAlignment="textEnd"
+        android:textColor="@color/textForeground"
         android:background="@android:color/transparent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/history"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -28,16 +43,17 @@
         android:layout_height="wrap_content"
         android:text="@string/button_0"
         android:textSize="32sp"
+        android:textColor="@color/textForeground"
         android:textAlignment="textEnd"
         app:layout_constraintTop_toBottomOf="@id/input"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:paddingBottom="16dp"/>
+        android:paddingBottom="15dp"/>
 
     <GridLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="15dp"
         android:rowCount="5"
         android:columnCount="4"
         app:layout_constraintTop_toBottomOf="@id/result"

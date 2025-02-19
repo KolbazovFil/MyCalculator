@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundApp">#FF000000</color>
+    <color name="numberButtonForeground">#FFFFFFFF</color>
+    <color name="textForeground">#FFFFFFFF</color>
+    <color name="backgroundEquals">#FF9900</color>
+    <color name="operationButtonForeground">#ff9900</color>
+    <color name="button">#4A545C</color>
+    <color name="colorPressed">#5B656B</color>
+    <color name="colorDefault">#4A545C</color>
 </resources>
