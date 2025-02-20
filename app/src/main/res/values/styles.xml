@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="operationButton">
+        <item name="android:background">@color/button</item>
+        <item name="android:textColor">@color/operationButtonForeground</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="equalsButton">
+        <item name="android:background">@color/operationButtonForeground</item>
+        <item name="android:textColor">@color/textForeground</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="numberButton">
+        <item name="android:background">@color/button</item>
+        <item name="android:textColor">@color/textForeground</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="history">
+        <item name="android:layout_width">390dp</item>
+        <item name="android:layout_height">250dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:maxLines">10</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">@color/textForeground</item>
+    </style>
+
+    <style name="input">
+        <item name="android:layout_width">390dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textAlignment">textEnd</item>
+        <item name="android:textColor">@color/textForeground</item>
+        <item name="android:textColorHint">@color/textHint</item>
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+    <style name="result">
+        <item name="android:layout_width">390dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textColor">@color/textForeground</item>
+        <item name="android:textAlignment">textEnd</item>
+    </style>
+
+</resources>
